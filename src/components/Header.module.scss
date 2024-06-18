@@ -1,0 +1,49 @@
+.header {
+    width: 100%;
+    // padding: 2% 2% 1% 1%;
+    background-color: var(--second);
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-evenly;
+        align-items: center;
+
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+
+        li {
+
+
+            a {
+                font-family: var(--neucha);
+                color: white;
+                transition: .3s ease-in-out;
+                font-size: 1.3rem;
+
+                img {
+                    width: 200px;
+                    display: block;
+
+                    @media screen and (max-width: 1000px) {
+                        width: 150px;
+                    }
+
+                    @media screen and (max-width: 800px) {
+                        width: 125px;
+                    }
+                }
+
+                @media screen and (max-width: 1000px) {
+                    font-size: 1rem;
+                }
+
+                &:hover {
+                    color: var(--accent-color);
+                }
+            }
+        }
+
+    }
+}

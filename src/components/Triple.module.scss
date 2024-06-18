@@ -1,0 +1,140 @@
+.container {
+    margin: 5% auto;
+    width: 75%;
+    background-color: var(--second);
+    border-radius: 15px;
+
+    @media (max-width: 1500px) {
+        width: 85%
+    }
+
+    @media (max-width: 1400px) {
+        width: 90%;
+    }
+
+    @media (max-width: 1027px) {
+        width: 95%;
+    }
+
+
+    @media (max-width: 800px) {
+        width: 80%;
+    }
+
+    @media (max-width: 650px) {
+        width: 88%;
+    }
+
+
+    .content,
+    .contentTwo {
+        display: flex;
+        position: relative;
+        width: 100%;
+
+        @media (max-width: 997px) {
+            flex-direction: column;
+            ;
+        }
+
+        .bubble,
+        .bubbleReverse {
+            width: 9vw;
+            height: 9vw;
+            border-radius: 50%;
+            border: 2px solid;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            background-color: var(--second);
+            box-shadow: var(--box-shadow);
+
+            @media (max-width: 1027px) {
+                display: none
+            }
+
+            p {
+                display: flex;
+                text-align: center;
+
+                @media (max-width: 1500px) {
+                    font-size: 0.9rem;
+                }
+            }
+        }
+
+        .bubbleReverse {
+            right: -12%;
+
+            @media (max-width: 1500px) {
+                right: -10%;
+            }
+        }
+
+
+        img {
+            display: block;
+            width: 50%;
+
+            @media (max-width: 997px) {
+                width: 100%;
+            }
+        }
+
+        .text {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            @media (max-width: 997px) {
+                width: 100%;
+                padding-block: 5%;
+                ;
+            }
+
+            p {
+                width: 75%;
+                text-align: justify;
+                font-size: 1.1rem;
+
+                @media (max-width: 1200px) {
+                    width: 90%;
+                    padding-block: 2%;
+                }
+
+                @media (max-width: 650px) {
+                    font-size: 1rem;
+                    width: 85%;
+                }
+            }
+
+            h3 {
+                font-size: 1.8rem;
+                text-align: center;
+
+                @media (max-width: 650px) {
+                    font-size: 1.3rem;
+                }
+            }
+
+            .line {
+                background: linear-gradient(to left, #07401d, white 25%, white 75%, #07401d);
+                height: 2px;
+                width: 50%;
+                margin-block: 2%;
+            }
+        }
+    }
+
+    .contentTwo {
+        @media (max-width: 997px) {
+            flex-direction: column-reverse;
+        }
+
+    }
+}

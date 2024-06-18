@@ -1,0 +1,50 @@
+.navMobile {
+    position: absolute;
+    height: 100vh;
+    width: 42vw;
+    top: 0;
+    right: 0;
+    z-index: 4;
+    background-color: var(--second);
+    opacity: 0.95;
+    border-left: 2px solid white;
+    border-radius: 15px 0 0 15px;
+
+    @media screen and (max-width: 600px) {
+        width: 55vw;
+    }
+
+    @media screen and (max-width: 550px) {
+        width: 60vw
+    }
+
+    @media screen and (max-width: 400px) {
+        width: 100%
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+
+        li {
+            margin-bottom: 25px;
+
+            a {
+                text-transform: uppercase;
+                color: white;
+                padding-bottom: 50px;
+                font-family: var(--neucha);
+                font-weight: 500;
+                font-size: 1.5rem;
+            }
+
+            @media screen and (max-width: 500px) {
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
