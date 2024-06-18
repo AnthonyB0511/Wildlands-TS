@@ -4,6 +4,7 @@ import forest from "../assets/img-forest/forest.webp"
 import forestOne from "../assets/img-forest/forest1.webp"
 import forestTwo from "../assets/img-forest/forest2.webp"
 import forestThree from "../assets/img-forest/forest3.webp"
+import Wip from "./Wip"
 
 const Forest = () => {
     return (
@@ -29,6 +30,7 @@ const Forest = () => {
                 bubble1="Plus grande tyrolienne d'Europe"
                 bubble2="Des parcours allant de 3km à 15km"
                 bubble3="10 créneaux de promenade par jour" />
+            <Wip />
         </>
     )
 }

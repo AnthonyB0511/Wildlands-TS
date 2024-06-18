@@ -4,6 +4,7 @@ import wind from "../assets/img-wind/wind.webp"
 import windOne from "../assets/img-wind/wind1.webp"
 import windTwo from "../assets/img-wind/wind2.webp"
 import windThree from "../assets/img-wind/wind3.webp"
+import Wip from "./Wip"
 
 const Wind = () => {
     return (
@@ -24,6 +25,7 @@ const Wind = () => {
                 bubble1="Un saut à 150m de haut"
                 bubble2="Réservez votre créneau"
                 bubble3="Une vue panoramique sur le parc" />
+            <Wip />
         </>
     )
 }

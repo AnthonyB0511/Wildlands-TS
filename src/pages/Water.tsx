@@ -4,6 +4,7 @@ import banner from "../assets/img-water/water.webp"
 import tripleOne from "../assets/img-water/water1.webp"
 import tripleTwo from "../assets/img-water/water2.webp"
 import tripleThree from "../assets/img-water/water3.webp"
+import Wip from "./Wip"
 const Water = () => {
     return (
         <>
@@ -23,7 +24,7 @@ const Water = () => {
                 bubble1="Possibilité d'être accompagné"
                 bubble2="Différents niveaux de difficultés"
                 bubble3="Plus de 15 km2 de lac à parcourir" />
-
+            <Wip />
         </>
     )
 }
