@@ -1,4 +1,5 @@
 import Wip from "./Wip"
+import { SimpleSlider } from "../components/Carrousel/SimpleSlider"
 import { useState } from "react"
 import styles from "../pages/scss/Bil.module.scss"
 
@@ -75,6 +76,14 @@ const Billetterie = () => {
 
 
             </section >
+            <section className={styles.night}>
+                <div className={styles.banner}>
+                    <h2>Et si on prolongeait votre séjour ?</h2>
+                </div>
+                <SimpleSlider />
+                <p>Exemples de lieux insolites où prolonger vos séjours</p>
+            </section>
+
             <Wip />
         </>
     )

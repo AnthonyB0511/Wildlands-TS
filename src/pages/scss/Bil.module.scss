@@ -134,6 +134,7 @@
 }
 
 .panier {
+    z-index: 99;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -238,4 +239,34 @@
 
         }
     }
+}
+
+.night {
+    .banner {
+        background-image: url("../../assets/img-bil/bannerNight.webp");
+        background-position: center;
+
+        h2 {
+            padding: 4% 0 4% 3%;
+            font-size: 3rem;
+            font-family: var(--neucha);
+
+            @media screen and (max-width:1000px) {
+                font-size: 2rem;
+            }
+
+            @media screen and (max-width:450px) {
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    p {
+        color: var(--second);
+        text-align: center;
+        font-weight: 300;
+        font-style: italic;
+    }
+
+
 }

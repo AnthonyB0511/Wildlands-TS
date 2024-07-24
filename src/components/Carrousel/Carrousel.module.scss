@@ -1,0 +1,42 @@
+.carrousel {
+    width: 50%;
+    margin: 5% auto 2% auto;
+
+
+    @media screen and (max-width:1200px) {
+        width: 60%;
+
+    }
+
+    @media screen and (max-width:1000px) {
+        width: 70%;
+    }
+
+    @media screen and (max-width:800px) {
+        width: 80%;
+    }
+
+    @media screen and (max-width:700px) {
+        width: 90%;
+    }
+
+    @media screen and (max-width:600px) {
+        width: 95%;
+        margin-bottom: 7%;
+    }
+
+
+    .div {
+        position: relative;
+    }
+
+    .border {
+        border-radius: 5vh;
+        border: 2px var(--color-accent) solid;
+        height: 50vh;
+        box-shadow: var(--box-shadow);
+        width: 100%;
+
+
+    }
+}
