@@ -61,10 +61,19 @@
                 margin: 0 auto;
                 padding-block: 2%;
                 align-items: center;
+                width: 100%;
+
+                p {
+                    width: 25%;
+                    padding-left: 5%;
+                }
 
                 .button {
                     display: flex;
                     align-items: center;
+                    justify-content: center;
+                    width: 75%;
+
 
                     .btn {
                         width: 2.5vw;
@@ -73,6 +82,7 @@
                         background-color: #6bfa6ef9;
                         transition: all .5s ease-in-out;
                         cursor: pointer;
+                        padding: 0;
 
                         @media screen and (max-width:1000px) {
                             width: 3vw;
@@ -104,8 +114,9 @@
                     }
 
                     p {
-                        margin-left: 20px;
-                        margin-right: 20%;
+                        margin-block: 5%;
+                        text-align: center;
+                        padding: 0;
                     }
                 }
             }

@@ -2,29 +2,26 @@
     width: 50%;
     margin: 5% auto 2% auto;
 
-
-    @media screen and (max-width:1200px) {
+    @media screen and (max-width: 1200px) {
         width: 60%;
-
     }
 
-    @media screen and (max-width:1000px) {
+    @media screen and (max-width: 1000px) {
         width: 70%;
     }
 
-    @media screen and (max-width:800px) {
+    @media screen and (max-width: 800px) {
         width: 80%;
     }
 
-    @media screen and (max-width:700px) {
+    @media screen and (max-width: 700px) {
         width: 90%;
     }
 
-    @media screen and (max-width:600px) {
+    @media screen and (max-width: 600px) {
         width: 95%;
         margin-bottom: 7%;
     }
-
 
     .div {
         position: relative;
@@ -37,6 +34,41 @@
         box-shadow: var(--box-shadow);
         width: 100%;
 
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
 
+
+    @media screen and (max-width: 1200px) {
+        .border {
+            height: 40vh;
+        }
+    }
+
+    @media screen and (max-width: 1000px) {
+        .border {
+            height: 35vh;
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        .border {
+            height: 30vh;
+        }
+    }
+
+    @media screen and (max-width: 700px) {
+        .border {
+            height: 25vh;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        .border {
+            height: 25vh;
+        }
     }
 }
